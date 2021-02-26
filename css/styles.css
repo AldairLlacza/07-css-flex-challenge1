@@ -15,7 +15,6 @@ body {
 body > h2:nth-child(1) {
 	color: #222;
 }
-
 body > h2:nth-child(1) span {
 	color: #a70000;
 }
@@ -25,3 +24,28 @@ body > h2 + hr {
 /*
 ****************** NO BORRAR LOS ESTILOS INICIALES
 */
+
+.stepper {
+	display: flex;
+	max-width: 150px;
+	
+}
+.input {
+	width: 70px;
+	outline: none;
+	border: 1px solid #bbb;
+	padding: 8px 5px;
+}
+.button {
+	flex: 1;
+	background-color: #4690b3;
+	color: white;
+	outline: none;
+	border: 1px solid #265f79;
+}
+.button--izquierda {
+	border-radius: 5px 0px 0px 5px;
+}
+.button--derecha {
+	border-radius: 0px 5px 5px 0px;
+}
